@@ -1,0 +1,34 @@
+<html>
+<head>
+    <!-- Cargar los archivos de Bootstrap desde un CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Crear una lista de pestañas con la clase "nav nav-tabs" -->
+    <ul class="nav nav-tabs" id="menuPestanas" role="tablist">
+        <!-- Crear una pestaña activa con el texto "Pestaña A" y el atributo "data-toggle" para activar el cambio de pestañas -->
+        <li class="nav-item">
+            <a class="nav-link active" id="pestanaA-tab" data-toggle="tab" href="#pestanaA" role="tab" aria-controls="pestanaA" aria-selected="true">Pestaña A</a>
+        </li>
+        <!-- Crear una pestaña con el texto "Pestaña B" y el atributo "data-toggle" para activar el cambio de pestañas -->
+        <li class="nav-item">
+            <a class="nav-link" id="pestanaB-tab" data-toggle="tab" href="#pestanaB" role="tab" aria-controls="pestanaB" aria-selected="false">Pestaña B</a>
+        </li>
+    </ul>
+    <!-- Crear un contenedor para el contenido de las pestañas con la clase "tab-content" -->
+    <div class="tab-content" id="menuPestanasContent">
+        <!-- Crear un div para el contenido de la pestaña A con la clase "tab-pane fade show active" -->
+        <div class="tab-pane fade show active" id="pestanaA" role="tabpanel" aria-labelledby="pestanaA-tab">
+            <!-- Agregar el contenido de la pestaña A -->
+            <p>Este es el contenido de la pestaña A</p>
+        </div>
+        <!-- Crear un div para el contenido de la pestaña B con la clase "tab-pane fade" -->
+        <div class="tab-pane fade" id="pestanaB" role="tabpanel" aria-labelledby="pestanaB-tab">
+            <!-- Agregar el contenido de la pestaña B -->
+            <p>Este es el contenido de la pestaña B</p>
+        </div>
+    </div>
+</body>
+</html>

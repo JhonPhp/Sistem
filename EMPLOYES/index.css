@@ -1,0 +1,41 @@
+/* Establecer el color de fondo del menú lateral */
+.sidebar {
+    background-color: #E4276B;
+}
+
+/* Establecer el color de los enlaces del menú lateral */
+.sidebar a {
+    color: white;
+}
+
+/* Establecer el color de los enlaces del menú lateral al pasar el ratón */
+.sidebar a:hover {
+    background-color: #FFD614;
+    color: black;
+}
+/* Establecer el color del enlace activo del menú lateral */
+.sidebar a.active {
+    background-color: #4A80BC;
+    color: white;
+}
+
+/* Establecer el color de fondo del contenido principal */
+/* #menuLateralContent{
+    float: left;
+    margin-top: 2VW ;
+    margin-left: 22VW;
+} */
+/* Establecer el color de fondo del título */
+.title {
+    background-color: #4A80BC;
+    color: white;
+    text-align: center;
+}
+
+/* Establecer el fondo innovador de nueva TTG */
+body {
+    background-image: url("./STR/IMG/40-405583_high-resolution-white-background-hd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
